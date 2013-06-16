@@ -473,6 +473,6 @@ a.carousel-control {
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
 
 /* fontawesome */
-[class*="fontawesome-"]:before {
+[class*="icon-"]:before {
   font-family: 'FontAwesome', sans-serif;
 }
