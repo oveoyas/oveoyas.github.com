@@ -43,11 +43,11 @@ hr {
 
 @font-face {
     font-family: 'dirty_egoregular';
-    src: url('../fonts/dirtyego-webfont.eot');
-    src: url('../fonts/dirtyego-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/dirtyego-webfont.woff') format('woff'),
-         url('../fonts/dirtyego-webfont.ttf') format('truetype'),
-         url('../fonts/dirtyego-webfont.svg#dirty_egoregular') format('svg');
+    src: url('http://oveoyas.github.io/igem-ntnu-2012/fonts/dirtyego-webfont.eot');
+    src: url('http://oveoyas.github.io/igem-ntnu-2012/fonts/dirtyego-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://oveoyas.github.io/igem-ntnu-2012/fonts/dirtyego-webfont.woff') format('woff'),
+         url('http://oveoyas.github.io/igem-ntnu-2012/fonts/dirtyego-webfont.ttf') format('truetype'),
+         url('http://oveoyas.github.io/igem-ntnu-2012/fonts/dirtyego-webfont.svg#dirty_egoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
