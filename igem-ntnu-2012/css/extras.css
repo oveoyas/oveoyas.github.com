@@ -1,3 +1,11 @@
+/* Add shadow to links for better visibility
+-------------------------------------------------- */
+
+a {
+    text-shadow: 1px 1px 1px #000;
+}
+
+
 /* Removing wiki elements
 -------------------------------------------------- */
 
