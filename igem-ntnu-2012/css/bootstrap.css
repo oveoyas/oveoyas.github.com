@@ -1817,13 +1817,25 @@ table [class*=span],
     Work: Lead Product Designer @ http://kyruus.com
 
     */
-@font-face {
+/*@font-face {
   font-family: 'FontAwesome';
   src: url('http://oveoyas.github.io/igem-ntnu-2012/fonts/fontawesome-webfont.eot');
   src: local('☺'), url('http://oveoyas.github.io/igem-ntnu-2012/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('http://oveoyas.github.io/igem-ntnu-2012/fonts/fontawesome-webfont.ttf') format('truetype'), url('http://oveoyas.github.io/igem-ntnu-2012/fonts/fontawesome-webfont.woff') format('woff'), url('http://oveoyas.github.io/igem-ntnu-2012/fonts/fontawesome-webfont.svg#FontAwesome') format('svg');
   font-weight: normal;
   font-style: normal;
+}*/
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("http://oveoyas.github.io/igem-ntnu-2012/fonts/fontawesome-webfont.eot");
 }
+@font-face {
+  font-family: 'FontAwesome';
+  src: url(data:application/x-font-woff;charset=utf-8;base64, http://oveoyas.github.io/igem-ntnu-2012/fonts/fontawesome-webfont.woff) format('woff'),
+  url("http://oveoyas.github.io/igem-ntnu-2012/fonts/fontawesome-webfont.ttf") format('truetype'),
+  url("http://oveoyas.github.io/igem-ntnu-2012/fonts/fontawesome-webfont.svg#FontAwesome") format('svg');
+  font-weight: normal;
+  font-style: normal; }
 /*  Font Awesome styles
     ------------------------------------------------------- */
 [class^="icon-"]:before,
