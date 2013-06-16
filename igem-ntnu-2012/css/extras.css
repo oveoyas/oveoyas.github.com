@@ -433,3 +433,39 @@ a.carousel-control {
 #toc ul ul, .toc ul ul {
     margin: 0;}
 
+
+/* Firefox font fixes
+-------------------------------------------------- */
+
+@-moz-document url-prefix() {    
+    .header .heading a,
+    .header .heading a:hover,
+    .header .heading a:active {
+    position: absolute;
+    top: 50%;
+    margin: -25px 0px 0px 150px;
+    vertical-align: middle;
+    font-family: "Jolly Lodger";
+    font-size: 60pt;
+    text-shadow: 5px 5px 5px #a5eb3c;
+    color: #333;
+    text-decoration: none;
+    }
+    #sub-heading2 {
+    margin: 31px 0px 0px 540px;
+    font-family: "Jolly Lodger";
+    font-size: 40pt;
+    font-style: italic;
+    text-shadow: 5px 5px 5px #a5eb3c;
+    }
+    .top-pointer,
+    .top-pointer a:hover {
+    font-size: 36pt;
+    font-family: "Jolly Lodger";
+    text-decoration: none;
+    }
+    .nav li a{
+    font-family: "Jolly Lodger";
+    font-size: 24px;
+    }
+}
